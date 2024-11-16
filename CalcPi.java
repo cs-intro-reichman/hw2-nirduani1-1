@@ -5,7 +5,7 @@ public class CalcPi {
 		for(int i = 0; i<times; i++){
 			sum = sum + Math.pow(-1, i)*(1.0/(2*i+1));
 		}
-		System.out.println("pi according to java: "+ Math.PI);
+		System.out.println("pi according to Java: "+ Math.PI);
 		System.out.println("pi, approximated:     "+ sum*4); 
 	}
 }
